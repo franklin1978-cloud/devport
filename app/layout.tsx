@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
+import Navbar from "./components/Navbar";
+
 
 export const metadata: Metadata = {
   title: "DevPort - Portal de empleos tech",
@@ -16,9 +18,12 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="bg-salte-950 text white hover">{children}</body>
+>
+      <body className="bg-slate-950 text-white min-h-screen">
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
+
   );
 }
