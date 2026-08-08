@@ -17,7 +17,6 @@ export default function DashboardPage() {
                     <p className="text-slate-400 text-sm mb-1">Publicaciones</p>
                     <p className="text-3xl font-bold text-white">0</p>
                 </div>
-                {/* Card 2 */}
                 <div className="bg-slate-800 rounded-xl p-6">
                     <p className="text-slate-400 text-sm mb-1">Aplicaciones</p>
                     <p className="text-3xl font-bold text-white">0</p>

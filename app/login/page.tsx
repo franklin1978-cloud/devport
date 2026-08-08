@@ -1,6 +1,6 @@
 export default function DashboardPage() {
     return (
-        <section className="max-w-4xl mx-auto px-6 py-12">
+        <section className="min-h-screen flex items-center justify-center px-4">
             {/* Encabezado */}
             <div className="mb-10">
                 <h1 className="text-3xl font-bold text-white mb-2">
